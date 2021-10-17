@@ -11,7 +11,7 @@
  - CSS Modules, classnames
  ---
 ### Ссылка на опубликованную версию:
-
+https://export-link.vercel.app/
 
 ---
 ### Превью:
