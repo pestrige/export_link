@@ -22,11 +22,21 @@ export enum InputType {
   number = 'number',
 }
 
+// export enum ApiRoutes {
+//   categories = 'https://export.alt-test.ru/api/v1/public/user_category/input_list',
+//   countries = 'https://export.alt-test.ru/api/v1/public/user_country/input_list',
+//   markets = 'https://export.alt-test.ru/api/v1/public/country/input_list',
+//   lang = 'https://export.alt-test.ru/api/v1/public/lang/input_list',
+//   industry = 'https://export.alt-test.ru/api/v1/public/industry/input_list',
+//   submit = 'https://export.alt-test.ru/api/v1/public/auth/registration_demo',
+// }
+
+// FAKE API ROUTS
 export enum ApiRoutes {
-  categories = 'https://export.alt-test.ru/api/v1/public/user_category/input_list',
-  countries = 'https://export.alt-test.ru/api/v1/public/user_country/input_list',
-  markets = 'https://export.alt-test.ru/api/v1/public/country/input_list',
-  lang = 'https://export.alt-test.ru/api/v1/public/lang/input_list',
-  industry = 'https://export.alt-test.ru/api/v1/public/industry/input_list',
-  submit = 'https://export.alt-test.ru/api/v1/public/auth/registration_demo',
+  categories = 'https://my-json-server.typicode.com/pestrige/export_link/user_category',
+  countries = 'https://my-json-server.typicode.com/pestrige/export_link/user_countryt',
+  markets = 'https://my-json-server.typicode.com/pestrige/export_link/country',
+  lang = 'https://my-json-server.typicode.com/pestrige/export_link/lang',
+  industry = 'https://my-json-server.typicode.com/pestrige/export_link/industry',
+  submit = 'https://my-json-server.typicode.com/pestrige/export_link/registration_demo',
 }
