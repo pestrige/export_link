@@ -34,7 +34,7 @@ export enum InputType {
 // FAKE API ROUTS
 export enum ApiRoutes {
   categories = 'https://my-json-server.typicode.com/pestrige/export_link/user_category',
-  countries = 'https://my-json-server.typicode.com/pestrige/export_link/user_countryt',
+  countries = 'https://my-json-server.typicode.com/pestrige/export_link/country',
   markets = 'https://my-json-server.typicode.com/pestrige/export_link/country',
   lang = 'https://my-json-server.typicode.com/pestrige/export_link/lang',
   industry = 'https://my-json-server.typicode.com/pestrige/export_link/industry',
