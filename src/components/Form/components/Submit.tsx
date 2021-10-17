@@ -17,6 +17,7 @@ const Submit = (): JSX.Element => {
     evt.preventDefault();
     setIsLoading(true);
     axios.post(ApiRoutes.submit, dataToServer)
+      .then(() => showToast('Запрос успешно отправлен', false))
       .catch(() => showToast('Ошибка запроса'))
       .finally(() => setIsLoading(false));
   };
