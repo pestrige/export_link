@@ -1,0 +1,18 @@
+.wrapper {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.select_error > div:first-of-type {
+  outline: 2px solid var(--danger);
+}
+
+.error_text {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  font-size: 10px;
+  color: var(--danger);
+}

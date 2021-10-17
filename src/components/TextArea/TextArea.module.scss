@@ -1,0 +1,37 @@
+.wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.textarea {
+  min-height: 125px;
+  width: 100%;
+  padding: 15px;
+  font-weight: 300;
+  font-family: var(--font);
+  font-size: 12px;
+  background: var(--background);
+  border: 1px solid var(--basic-20);
+  border-radius: 5px;
+  resize: none;
+  outline: 2px solid transparent;
+  transition: outline 0.3s;
+
+  &:focus-visible {
+    outline: 2px solid var(--primary-80);
+  }
+
+  @media (min-width: 768px) {
+    padding: 20px;
+    min-height: 52px;
+    font-size: 15px;
+  }
+}
+
+.error_text {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 10px;
+  color: var(--danger);
+}

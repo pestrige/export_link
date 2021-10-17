@@ -1,0 +1,39 @@
+.button {
+  width: 100%;
+  padding: 18px;
+  margin: 0;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 5px;
+  border: none;
+  outline: 2px solid transparent;
+  transition: opacity 0.3s, outline 0.3s, background-color 0.3s;
+
+  @media (min-width: 768px) {
+    font-size: 15px;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--primary-80);
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &disabled {
+    cursor: not-allowed;
+  }
+}
+
+.disabled {
+  background-color: var(--basic-25);
+  cursor: not-allowed;
+
+  &:hover {
+    opacity: 1;
+  }
+}

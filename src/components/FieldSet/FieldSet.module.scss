@@ -1,0 +1,25 @@
+.fieldset {
+  margin-bottom: 20px;
+  padding: 0 15px;
+  border: none;
+  display: grid;
+  column-gap: 20px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+  }
+}
+
+.legend {
+  padding-bottom: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+}
