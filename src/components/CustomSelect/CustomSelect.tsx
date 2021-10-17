@@ -104,7 +104,6 @@ const CustomSelect = ({
     }
     setIsLoading(true);
     axios.get<IData[]>(link).then(({data}) => {
-      console.log('data', data);
       const adaptedData = adaptDataFromServer(data, name);
       setAsyncOptions(adaptedData);
     })
