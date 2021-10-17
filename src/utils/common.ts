@@ -3,7 +3,9 @@ import { Option } from '../components/CustomSelect/CustomSelect.props';
 import { SelectName } from '../types/enums';
 import { IData, IOption } from '../types/interfaces';
 
-export const showToast = (message: string) => toast.error(message, {position: 'top-center'});
+export const showToast = (message: string, isError: boolean = true) => isError
+  ? toast.error(message, {position: 'top-center'})
+  : toast.success(message, {position: 'top-center'});
 
 export const findValue = (value: Option['value'], options: Option[]) => options.find((item) => item.value === value);
 

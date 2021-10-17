@@ -4,7 +4,7 @@ import axios from 'axios';
 import { CustomSelectProps } from './CustomSelect.props';
 import DropdownIndicator from './DropDownIndicator';
 import classNames from 'classnames';
-import { IOption, IResponse } from '../../types/interfaces';
+import { IData, IOption } from '../../types/interfaces';
 import { useDispatch } from 'react-redux';
 import { AppDispatch } from '../../store';
 import { setSelect } from '../../store/inputReducer';
@@ -103,8 +103,9 @@ const CustomSelect = ({
       return;
     }
     setIsLoading(true);
-    axios.get<IResponse>(link).then(({data}) => {
-      const adaptedData = adaptDataFromServer(data.data, name);
+    axios.get<IData[]>(link).then(({data}) => {
+      console.log('data', data);
+      const adaptedData = adaptDataFromServer(data, name);
       setAsyncOptions(adaptedData);
     })
       .catch(() => showToast('Ошибка загрузки'))

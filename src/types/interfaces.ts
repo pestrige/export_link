@@ -5,10 +5,6 @@ export interface IData {
   name: string;
 }
 
-export interface IResponse {
-  data: IData[];
-}
-
 export interface IOption {
   value: string | string[];
   label: string;
