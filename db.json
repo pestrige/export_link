@@ -20,14 +20,6 @@
     {
       "id":"a9afc669-2568-4d36-95f4-927513ac39a4",
       "name":"Банк развития"
-    },
-    {
-      "id":"58b63ff5-3fe2-4be7-9f8e-c86caea33909",
-      "name":"Инвестплощадка/Кластер"
-    },
-    {
-      "id":"0df26081-dc54-4529-ab97-738f8e197dc5",
-      "name":"Прочее"
     }
   ],
   "country":[
@@ -50,11 +42,6 @@
       "id":"2e58cf50-50e8-480d-b552-aca934aac821",
       "name":"Кыргызстан",
       "preview_picture":"/storage/files/handbook_country/12e740b39a14847cTMR68616e64626f6f6b5f636f756e7472796132573b0cbfd.svg"
-    },
-    {
-      "id":"f5c2203a-8019-4d80-ab42-44dca15e9359",
-      "name":"Беларусь",
-      "preview_picture":"/storage/files/handbook_country/9856f930a3758eb1MRT68616e64626f6f6b5f636f756e7472796132574bce486.svg"
     }
   ],
   "lang":[
@@ -62,29 +49,25 @@
       "id":"a4f442a0-97f4-4857-b2cd-9ece20f11566",
       "name":"Русский",
       "code":"ru",
-      "main":true,
-      "picture":"/storage/files/lang/acaffea132d1b453TMR6c616e67600c37e6b2879.svg"
+      "main":true
     },
     {
       "id":"bb1b739a-9a95-44ba-9793-a1be4fcac6ba",
       "name":"Deutsch",
       "code":"deu",
-      "main":false,
-      "picture":"/storage/files/lang/c4ce93c6a86ee757MRT6c616e6760c8945d60877.svg"
+      "main":false
     },
     {
       "id":"4a1d0b81-3f26-44dd-b1e1-5f931edd206a",
       "name":"English",
       "code":"en",
-      "main":true,
-      "picture":"/storage/files/lang/f74935c61479fac0TMR6c616e67600c37f73698f.svg"
+      "main":true
     },
     {
       "id":"171a20dd-15f8-42e2-9a6e-c182cb449e94",
       "name":"Français",
       "code":"fra",
-      "main":false,
-      "picture":"/storage/files/lang/50a5bcad3cd35492TMR6c616e6760c894a5cebc6.svg"
+      "main":false
     }
   ],
   "industry":[
@@ -99,10 +82,6 @@
     {
       "id":"62982c06-0907-4ee6-81af-1d24137e824d",
       "name":"Нефтегазовая и горнодобывающая промышленность, металлургия"
-    },
-    {
-      "id":"ea7034cf-11f2-4991-b536-625f986c9983",
-      "name":"Медицина и фармацевтика"
     }
   ],
   "user_country":[
@@ -121,34 +100,6 @@
     {
       "id":"ce3d46d3-1fd3-4a7f-bf12-a3de6145465b",
       "name":"Албания"
-    },
-    {
-      "id":"ea304082-e291-43f0-bb9b-7f9dc8ec743f",
-      "name":"Барбадос"
-    },
-    {
-      "id":"2f01e902-1d35-43ff-bcf6-957054f95755",
-      "name":"Ватикан"
-    },
-    {
-      "id":"a8f977d4-24a0-43cd-bcb2-81738c0ecfb3",
-      "name":"Великобритания"
-    },
-    {
-      "id":"cdc4ec78-6bbf-47e4-8f96-83b7a78ea2dd",
-      "name":"Венесуэла"
-    },
-    {
-      "id":"0c25cd34-da19-45bb-9733-050a6ebf217e",
-      "name":"Иордания"
-    },
-    {
-      "id":"92fe0f5b-14fa-4d0f-b852-e33dc7e9fb6e",
-      "name":"Польша"
-    },
-    {
-      "id":"1f4ead0f-6904-4136-9faf-23695144dd46",
-      "name":"Россия"
     }
   ]
 }
