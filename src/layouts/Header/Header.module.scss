@@ -1,0 +1,20 @@
+.header {
+  position: sticky;
+  top: 0;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--basic-20);
+  background-color: white;
+  z-index: 999;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_wrapper {
+  min-width: 120px;
+}
