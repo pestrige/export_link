@@ -13,7 +13,6 @@ const createApi = () => {
   const onSuccess = (response: AxiosResponse) => response;
 
   const onFail = (error: AxiosError) => {
-    const { response } = error;
     throw error;
   };
 

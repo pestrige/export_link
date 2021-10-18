@@ -19,9 +19,6 @@ interface IState {
   email: string;
   comment: string;
 
-  // [SelectName.category]: string;
-  // [SelectName.country]: string;
-  // [SelectName.markets]: string;
   category: string | Array<string>;
   country: string | Array<string>;
   markets: string | Array<string>;
@@ -40,9 +37,6 @@ const initialState = {
   appointment: '',
   email: '',
   comment: '',
-  // [SelectName.category]: '',
-  // [SelectName.country]: '',
-  // [SelectName.markets]: '',
 
   category: '',
   country: '',
