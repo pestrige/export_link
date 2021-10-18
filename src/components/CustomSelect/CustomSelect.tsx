@@ -63,8 +63,8 @@ const CustomSelect = ({
 }: CustomSelectProps): JSX.Element => {
 
   const [asyncOptions, setAsyncOptions] = useState<IOption[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isError, setIsError] = useState(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isError, setIsError] = useState<boolean>(false);
   const dispatch = useDispatch<AppDispatch>();
 
   // TODO: add types

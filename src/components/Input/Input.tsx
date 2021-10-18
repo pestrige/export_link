@@ -19,8 +19,8 @@ const Input = ({
 }: InputProps): JSX.Element => {
 
   const dispatch = useDispatch<AppDispatch>();
-  const [isError, setIsError] = useState(false);
-  const [errorText, setErrorText] = useState('');
+  const [isError, setIsError] = useState<boolean>(false);
+  const [errorText, setErrorText] = useState<string>('');
 
   const validateValue = (value: string) => {
     switch (type) {
