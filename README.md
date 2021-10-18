@@ -6,7 +6,7 @@
 ### Используемые технологии
  - React
  - Typescript
- - Redux, Redux Toolkit, Redux Thunk
+ - Redux, Redux Toolkit
  - Axios
  - CSS Modules, classnames
  ---

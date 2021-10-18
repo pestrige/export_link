@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Select, { StylesConfig } from 'react-select';
-import axios from 'axios';
+import api from '../../services/api';
 import { CustomSelectProps } from './CustomSelect.props';
 import DropdownIndicator from './DropDownIndicator';
 import classNames from 'classnames';
@@ -63,8 +63,8 @@ const CustomSelect = ({
 }: CustomSelectProps): JSX.Element => {
 
   const [asyncOptions, setAsyncOptions] = useState<IOption[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
-  const [isError, setIsError] = useState(false);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isError, setIsError] = useState<boolean>(false);
   const dispatch = useDispatch<AppDispatch>();
 
   // TODO: add types
@@ -103,7 +103,7 @@ const CustomSelect = ({
       return;
     }
     setIsLoading(true);
-    axios.get<IData[]>(link).then(({data}) => {
+    api.get<IData[]>(link).then(({data}) => {
       const adaptedData = adaptDataFromServer(data, name);
       setAsyncOptions(adaptedData);
     })

@@ -14,7 +14,7 @@ const InputCheckbox = ({
 }: InputCheckboxProps): JSX.Element => {
 
   const dispatch = useDispatch<AppDispatch>();
-  const [isError, setIsError] = useState(false);
+  const [isError, setIsError] = useState<boolean>(false);
 
   const handleChange = (evt: ChangeEvent<HTMLInputElement>) => {
     const isChecked = evt.target.checked;

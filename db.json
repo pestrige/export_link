@@ -20,29 +20,78 @@
     {
       "id":"a9afc669-2568-4d36-95f4-927513ac39a4",
       "name":"Банк развития"
+    },
+    {
+      "id":"92f3ab21-ac1a-4667-adfa-f7d8fd9859c1",
+      "name":"Национальный/региональный институт развития"
+    },
+    {
+      "id":"5537b3de-78a3-419a-9d9d-2bd11466ac56",
+      "name":"Страховая компания"
+    },
+    {
+      "id":"58b63ff5-3fe2-4be7-9f8e-c86caea33909",
+      "name":"Инвестплощадка/Кластер"
+    },
+    {
+      "id":"8da499f9-47a1-4bcf-a84e-12bfd2d219a4",
+      "name":"Маркетинговая/консалтинговая компания"
+    },
+    {
+      "id":"fc22cd00-2db7-48fb-ba9d-78304d2e9ab5",
+      "name":"Экспортер: производитель/трейдер"
+    },
+    {
+      "id":"f1c04a8b-8287-43f9-8767-b3dc6ec4d886",
+      "name":"Учебное заведение"
+    },
+    {
+      "id":"ae799930-f0f2-4966-8685-a35bbb2f8154",
+      "name":"Инвестиционный банк / фирма"
+    },
+    {
+      "id":"0df26081-dc54-4529-ab97-738f8e197dc5",
+      "name":"Прочее"
     }
   ],
   "country":[
-    {
-      "id":"a8db151d-52a5-4246-ac7d-d33a866896c1",
-      "name":"Азербайджан",
-      "preview_picture":"/storage/files/handbook_country/a9d322cb04cb2f63MRT68616e64626f6f6b5f636f756e747279613257148e360.svg"
-    },
-    {
-      "id":"5953189d-af51-4cb1-8cdd-b9820c3d9e8f",
-      "name":"Россия",
-      "preview_picture":"/storage/files/handbook_country/17f281896cef57acMTR68616e64626f6f6b5f636f756e747279613257206072f.svg"
-    },
-    {
-      "id":"055c7184-44a7-4efe-998c-a60890d6ca9b",
-      "name":"Армения",
-      "preview_picture":"/storage/files/handbook_country/27f34abc117637d0TRM68616e64626f6f6b5f636f756e74727961325729b26f9.svg"
-    },
-    {
-      "id":"2e58cf50-50e8-480d-b552-aca934aac821",
-      "name":"Кыргызстан",
-      "preview_picture":"/storage/files/handbook_country/12e740b39a14847cTMR68616e64626f6f6b5f636f756e7472796132573b0cbfd.svg"
-    }
+    [
+      {
+        "id":"a8db151d-52a5-4246-ac7d-d33a866896c1",
+        "name":"Азербайджан",
+        "preview_picture":"/storage/files/handbook_country/a9d322cb04cb2f63MRT68616e64626f6f6b5f636f756e747279613257148e360.svg"
+      },
+      {
+        "id":"5953189d-af51-4cb1-8cdd-b9820c3d9e8f",
+        "name":"Россия",
+        "preview_picture":"/storage/files/handbook_country/17f281896cef57acMTR68616e64626f6f6b5f636f756e747279613257206072f.svg"
+      },
+      {
+        "id":"055c7184-44a7-4efe-998c-a60890d6ca9b",
+        "name":"Армения",
+        "preview_picture":"/storage/files/handbook_country/27f34abc117637d0TRM68616e64626f6f6b5f636f756e74727961325729b26f9.svg"
+      },
+      {
+        "id":"f9f06f9d-26ae-45b3-b3bf-7476050d78a3",
+        "name":"Узбекистан",
+        "preview_picture":"/storage/files/handbook_country/6ac1a80e2e5cfc64RTM68616e64626f6f6b5f636f756e7472796132573290876.svg"
+      },
+      {
+        "id":"2e58cf50-50e8-480d-b552-aca934aac821",
+        "name":"Кыргызстан",
+        "preview_picture":"/storage/files/handbook_country/12e740b39a14847cTMR68616e64626f6f6b5f636f756e7472796132573b0cbfd.svg"
+      },
+      {
+        "id":"2e371fce-5dcb-416e-8861-0e887a39770a",
+        "name":"Казахстан",
+        "preview_picture":"/storage/files/handbook_country/3f6e5dadbd0ba008MRT68616e64626f6f6b5f636f756e747279613257424e6d7.svg"
+      },
+      {
+        "id":"f5c2203a-8019-4d80-ab42-44dca15e9359",
+        "name":"Беларусь",
+        "preview_picture":"/storage/files/handbook_country/9856f930a3758eb1MRT68616e64626f6f6b5f636f756e7472796132574bce486.svg"
+      }
+    ]
   ],
   "lang":[
     {
@@ -82,6 +131,46 @@
     {
       "id":"62982c06-0907-4ee6-81af-1d24137e824d",
       "name":"Нефтегазовая и горнодобывающая промышленность, металлургия"
+    },
+    {
+      "id":"ea7034cf-11f2-4991-b536-625f986c9983",
+      "name":"Медицина и фармацевтика"
+    },
+    {
+      "id":"03dad783-4d4d-40da-a4ca-1ca97c27f491",
+      "name":"Пищевая промышленность"
+    },
+    {
+      "id":"7c5ed0bd-ef43-4e4d-aa31-5124a4c46b43",
+      "name":"Товары народного потребления, легкая промышленность, мебель"
+    },
+    {
+      "id":"b0e43511-c1c4-4578-95b2-431d5784da47",
+      "name":"Информационные технологии"
+    },
+    {
+      "id":"9538edeb-72f2-496a-9742-5a1cdb09a8cc",
+      "name":"Сельское хозяйство"
+    },
+    {
+      "id":"54bae208-1758-4626-878a-2b25af4930f2",
+      "name":"Химическая промышленность"
+    },
+    {
+      "id":"a7b9303a-e589-45aa-8822-808d00845575",
+      "name":"Прочее"
+    },
+    {
+      "id":"43b67cde-459d-40cb-88ed-490e89f2a95c",
+      "name":"Машиностроение"
+    },
+    {
+      "id":"c74ab16f-b078-4a37-953d-65a258ea3e5e",
+      "name":"Лесная промышленность"
+    },
+    {
+      "id":"5d5ee316-250f-4d5e-9bfe-d478161fdd09",
+      "name":"Строительство, строительные материалы и оборудование"
     }
   ]
 }
