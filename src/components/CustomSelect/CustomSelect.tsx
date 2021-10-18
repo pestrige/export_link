@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Select, { StylesConfig } from 'react-select';
-import axios from 'axios';
+import api from '../../services/api';
 import { CustomSelectProps } from './CustomSelect.props';
 import DropdownIndicator from './DropDownIndicator';
 import classNames from 'classnames';
@@ -103,7 +103,7 @@ const CustomSelect = ({
       return;
     }
     setIsLoading(true);
-    axios.get<IData[]>(link).then(({data}) => {
+    api.get<IData[]>(link).then(({data}) => {
       const adaptedData = adaptDataFromServer(data, name);
       setAsyncOptions(adaptedData);
     })

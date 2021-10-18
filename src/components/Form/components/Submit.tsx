@@ -1,5 +1,5 @@
 import React, { MouseEvent, useState } from 'react';
-import axios from 'axios';
+import api from '../../../services/api';
 import Button from '../../Button/Button';
 import { getDataToServer, getIsDisabled } from '../../../store/selectors';
 import { useSelector } from 'react-redux';
@@ -16,7 +16,7 @@ const Submit = (): JSX.Element => {
   const handleClick = (evt: MouseEvent<HTMLButtonElement>) => {
     evt.preventDefault();
     setIsLoading(true);
-    axios.post(ApiRoutes.submit, dataToServer)
+    api.post(ApiRoutes.submit, dataToServer)
       .then(() => showToast('Запрос успешно отправлен', false))
       .catch(() => showToast('Ошибка запроса'))
       .finally(() => setIsLoading(false));
